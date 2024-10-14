@@ -34,3 +34,9 @@ function ferMoviment(&$tabla, $columna, $jugadorActual) {
     }
     return false;
 }
+
+function reinicio(){
+    $_SESSION['tabla'] = iniciarTabla();
+    $_SESSION['jugador'] = 1;
+}
+
